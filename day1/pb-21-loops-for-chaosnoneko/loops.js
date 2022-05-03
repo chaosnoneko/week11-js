@@ -57,21 +57,29 @@ for (let x = 1; x <=10;x++){
     console.log(x*100);}
 //>0 2 4 6 8 10
 //>
+for(let i = 0 ; i<=10 ;i++){
+    if(i%2===0){
+        console.log(i)
+    }
+}
 //>3 6 9 12 15
 //>
+for(let i = 0; i<=5; i++){
+    console.log(i*3)
+}
 //>9 8 7 6 5 4 3 2 1 0
+//>
 for (let i=9; i>=0; i--){
 process.stdout.write(`${i} `)
 cosole.log(i)
 }
-//>
 //>1 1 1 2 2 2 3 3 3 4 4 4
-forr (let i=1; i<=4; i++){
+//>
+for (let i=1; i<=4; i++){
    for(a=0;a<3;a++)
    {console.log(i)
    }
 }
-//>
 //>0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
 for(let x=0;x<3;x++){
 for (let xi = 0; xi <=5;xi++){
